@@ -1,0 +1,210 @@
+<!DOCTYPE html> <!--Corresponde a html5, etiqueta necesaria para el navegador y el servidor web--><!--Probando comentarios-->
+<html lang="es">
+    <head>
+        <meta chartset="utf-8" />
+        <title>Mindpage</title> 
+        <meta name="description" content="Prueba página con contenido aleatório" />
+        <meta name="author" content="Juan Pablo Girón Murcia"/>
+        <meta name="keywords" content="Prueba, aleatório, página web" />
+        <link rel="icon" href="Imagenes del sitio/Icono.png"/>
+        <link rel="stylesheet" type="text/css" href="CSS/Header.css">
+        <link rel="stylesheet" type="text/css" href="CSS/Label.css">
+    </head>
+    <body>
+        <center>
+            <header>
+                <h1>MI BLOG</h1>
+                <hr>
+            </header> 
+        </center>
+        <nav>
+            <ul>
+                <li>Principal</li>
+                <li>Ayuda</li>
+                <li>Contacto</li> 
+            </ul>
+        </nav>
+        <section>
+            <center>
+                <h3>FORMULARIO</h3>
+                <form>
+                    <label for="texto">Entrada de nombre</label>
+                    <input id="texto" type="text" placeholder="Escriba el nombre bro" value="" required>
+                    <br>
+                    <br>
+                    <label for="correo">Entrada de correo</label>
+                    <input id="correo" type="email" placeholder="Escriba el correo bro" value="" required>
+                    <br>
+                    <br>
+                    <label for="pass">Entrada de contraseña</label>
+                    <input id="pass" type="password" placeholder="Escriba la contraseña" value="" required>
+                    <br>
+                    <br>
+                    <label for="edad">Entrada de edad</label>
+                    <input id="edad" type="number" value="1" min="0" max="50" required>
+                    <br>
+                    <br>
+                    <label>Selección probar: </label>
+                    <select>
+                        <option>Opción 1</option>
+                        <option>Opción 2</option>
+                        <option>Opción 3</option>
+                        <option>Opción 4</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label>Seleccione los colores deseados: </label>
+                    <input id="rojo" type="checkbox"><label for="rojo">Rojo</label>
+                    <input id="azul" type="checkbox"><label for="azul">Azul</label>
+                    <input id="amarillo" type="checkbox"><label for="amarillo">Amarillo</label>
+                    <br>
+                    <br>
+                    <h2>Otro tipo de selección</h2>
+                    <p id="blanco">Este es por lo general, para una sola selección:</p>
+                    <input id="blanco" type="radio"><label for="blanco">Blanco</label>
+                    <input id="negro" type="radio"><label for="negro">Negro</label>     
+                    <br>
+                    <br>      
+                    <p>Por eso se necesitan más atributos:</p>
+                    <input id="blanco" type="radio" name="verificación1" checked><label for="blanco">Blanco</label>
+                    <input id="blanco" type="radio" name="verificación1"><label for="blanco">Blanco</label>  
+                    <br>
+                    <br>
+                    <input type="submit" value="Enviar formulario">
+                    <p>En caso de que sea necesario llenar todos los campos debo poner "required" como atributo a cada input</p>      
+                </form>
+            </center>
+            <audio autoplay controls>
+                <source src="Audio bro/My-Song-2.mp3" type="audio/mp3">
+            </audio>
+            <video autoplay controls width="720" height="680">
+                <source src="Vídeos/mary-tiene-lo-que-yo-pido-los-simpson.mp4" type="video/mp4">
+            </video>
+            <iframe width="640" height="640" src="https://www.youtube.com/embed/QC_WDTd-ymU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <table border="1">
+                <tr>
+                    <th>Stop</th>
+                    <th>Being</th>
+                    <th>That</th>
+                    <th>Fucking</th>
+                    <th>Coward</th>
+               </tr>
+               <tr>
+                 <th>I</th>
+                 <th>Know</th>
+                 <th>You</th>
+                 <th>Can</th>
+                 <th>Success</th>
+               </tr>
+               <tr>
+                 <th>It</th>
+                 <th>Is</th>
+                 <th>Up</th>
+                 <th>To</th>
+                 <th>You</th>
+              </tr>
+           </table>
+            <article>
+                <hgroup>
+                    <h1>Primer artículo</h1>
+                    <h2>Un subtítulo para ese</h2>
+                </hgroup>
+                <p class="sangría">Lorem ipsum dolor sit amet consectetur adipisicing elit. <small>Alias nobis odio excepturi sint, temporibus possimus</small> numquam perferendis recusandae </br> blanditiis natus qui placeat ullam incidunt, optio a debitis, nostrum maxime nam autem. Sequi, voluptatum. Eveniet reprehenderit ab dolor iusto neque fugiat?</p>
+                <time datetime="17-08-2021">Subido el 17-08-2021</time> 
+                <figure>
+                    <img src="homer.gif">
+                </figure>
+                <blockquote cite="https://bold.co/">Bold significa negrita</blockquote>
+                <h2>Lista de invitados a mi fiesta</h2>
+                <ol>
+                    <li>Pepito</li>
+                    <li>Sara</li>
+                    <li>Emilio</li>
+                    <li>José</li>
+                </ol>
+                <footer>
+                    <p>Comentarios (0)</p>
+                </footer>
+                <address>
+                    <a href="https://www.google.com">Para ir a Google click aquí</a>
+                </address>
+            </article>
+            <article>
+                <hgroup>
+                    <h1>Primer artículo</h1>
+                    <h2>Subtítulo de este bro</h2>
+                </hgroup>
+                <p class="sangría">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <cite>Voluptates libero repellendus nam a, numquam ipsam reprehenderit impedit reiciendis</cite> consequuntur quo laudantium recusandae, deleniti autem. Aperiam necessitatibus explicabo consequatur nihil, laudantium corporis atque voluptates libero quibusdam velit quia sapiente quis minus.</p>
+                <time datetime="28-04-2021">Subido el 28-04-2021</time>
+                <figure>
+                    <img src="Imagenes del sitio/giphy-202.gif"/>
+                </figure>
+                <figcaption>Imagen de Bart</figcaption>
+                <figure>
+                    <img src="https://pbs.twimg.com/media/CzW4UviWQAANLvc.jpg"/>
+                </figure>
+                <hgroup>
+                    <h1>Reasons</h1>
+                </hgroup>
+                <ul>
+                    <li>I'm so fucking confused</li>
+                    <li>Nervous</li>
+                    <li>Stop being such a cowardly guy!!!</li>
+                </ul>
+                <h2>Now were gonna represent the level of silliness</h2>
+                <p>Juan P. <meter value="97" min="0" max="100" high="95"></meter></p>
+                <p>Another people <meter value="2" min="0" max="100" high="95"></meter></p>
+
+                <footer>
+                    <p>Comentarios (23)</p>
+                </footer>
+            </article>
+            <table border="6">
+                <thead>
+                    <tr>
+                        <th>Stop</th>
+                        <th>Being</th>
+                        <th>That</th>
+                        <th>Fucking</th>
+                        <th>Coward</th>
+                   </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>I</td>
+                        <td>Know</td>
+                        <td>You</td>
+                        <td>Can</td>
+                        <td>Success</td>
+                    </tr>
+                    <tr>
+                        <td>It</td>
+                        <td>Is</td>
+                        <td>Up</td>
+                        <td>To</td>
+                        <td>You</td>
+                    </tr>
+
+                </tbody>
+           </table>
+           <hr>
+           <h2>Prueba de progreso</h2>
+           <p>Enero: <progress value="98" min="0" max="100"></progress></p>
+           <p>Febrero: <progress value="92" min="0" max="100"></progress></p>
+           <p>Marzo: <progress value="84" min="0" max="100"></progress></p>
+           <p>Abril: <progress value="69" min="0" max="100"></progress></p>
+        </section>
+        <aside>
+            Archivo
+
+            Acerca de
+        </aside>
+        <footer>
+            Derechos reservados 2021-2028
+        </footer>
+        <hr>
+        <h2>Subtítlo bro, simplemento es otro "heading", pero más peque </h2>
+        <p class="sangría">Este es el primer párrafo bro, <b>Así que vamos a probar la negrita </b> I'm happy, LMAO</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ullam eius cupiditate sunt porro nisi, magnam ratione non aperiam repellendus quasi? Et blanditiis qui deleniti ab tempore voluptatibus! Suscipit nihil itaque dolores saepe amet sequi vitae iure repellat atque ex? Ab est cum fuga laudantium culpa quaerat possimus harum nisi.</p>
+    </body> 
+</html>

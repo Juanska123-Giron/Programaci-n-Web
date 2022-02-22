@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Arquitectura cliente/servidor</title>
+        <link rel="icon" href="Imagenes del sitio/Tag html.png"/>
+        <meta charset="utf-8" />
+        <meta name="description" content="Definición de la arquitectura cliente/servidor"/>
+        <meta name="author" content="Juan Pablo Girón Murcia"/>
+        <meta name="keywords" content="Servidor, Cliente, Datos, Informática, Software"/>
+        <link rel="stylesheet" type="text/css" href="CSS/Label.css"
+    </head>
+    <body>
+        <header>
+            <center><h1>¿QUÉ ES Y EN QUÉ CONSISTE LA ARQUITECTURA CLIENTE/SERVIDOR?</h1></center>
+            <hr>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="Reto 2.html">Reto 2</a>
+                </li>
+                <li>
+                    <a href="Reto 3.html">Reto 3</a>
+                </li>
+                <li>
+                    <a href="Reto 4.html">Reto 4</a>
+                </li>
+                <li>
+                    <a href="Reto 5.html">Reto 5</a>
+                </li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                <h2>Elementos que componen el modelo</h2>
+                <p>Para comprender amenamente este modelo de diseño de software, es necesario explicar sus constituyentes. Este tipo en específico se fundamenta en dos elementos: </p>
+                <dl>
+                    <dt>Servidor:</dt>
+                    <dd>Sistema gestor de base de datos y aplicaciones. Proveedor de servicios solicitados, se encargan del envío de información en forma de respuesta a los demandantes. </dd>
+                    <dt>Cliente:</dt>
+                    <dd>Solicitantes de diversos recursos. Son los demandantes de distintos servicios, pueden ser desde un ordenador hasta un app, pues son estos quienes requieren de la información para satisfacer sus necesidades o sostener su funcionamiento. </dd>
+                </dl>
+                <p>Ahora bien, estos no son los únicos que influyen en la operación de este sistema estructurado, sino que también se es necesario entender unos cuantos más:</p>
+                <dl>
+                    <dt>Red:</dt>
+                    <dd>Conjunto de servidores, clientes, y bases de datos unificados no necesariamente de forma física, la cual se caracteriza por el manejo de ciertos protocolos para la transferencia de información.</dd>
+                    <dt>Protocolos:</dt>
+                    <dd>Normas para el transporte de datos.</dd>
+                    <dt>Servicios:</dt>
+                    <dd>Grupos o conglomerados de información exigidos por los clientes y demás usuarios. Ejemplo de esto son los archivos de música, vídeos, mensajes, y entre otros.</dd>
+                    <dt>Bases de datos:</dt>
+                    <dd>Bancos de información sustanciales para el funcionamiento de apps, productos, servicios web, y demás ejemplos.</dd>
+                </dl>
+            </article>
+            <article>
+                <h2>Diseño de la arquitectura</h2>
+                <p>Se cuentan con varios diseños diferenciados por el número de capas con el que consta:</p>
+                <h3>- De dos capas:</h3>
+                <p>Es el más utilizado y famoso, se destaca por tener dos niveles que denotan su simplicidad.</p>
+                <img src="Imagenes del sitio/dos_capas.jpg"/>
+                <p>En primer lugar se encuentra la capa de aplicación encerrando la interfaz del sistema y la gestión de solicitudes. En el otro extremo, se halla el nivel de la base de datos y el almacenamiento de la información.</p>
+                <h3>- De tres capas:</h3>
+                <img src="Imagenes del sitio/three_layers.gif"/>
+                <p>A diferencia del anterior prototipo, este comprende tres diferentes niveles, en donde se añade una capa de negocio con el propósito de almacenar los programas a ejecutar, y enviar las peticiones al servidor de la capa tres.</p>
+                <h3>- De <cite>n</cite> capas:</h3>
+                <img src="Imagenes del sitio/n capas.jpg"/>
+                <p>Con una ligera elevación de complejidad, este diseño puede dividirse en varios niveles más, cuatro comúnmente, en donde la capa uno corresponde a la presentación y captura de información, la dos al servidor web, la siguiente a la lógica de negocios, y la final, a la base de datos.</p>
+            </article>
+            <article>
+                <h2>Ventajas</h2>
+                <ul>
+                    <li>Facilita la integración entre diferentes sistemas.</li>
+                    <li>Mayor interacción con el usuario mediante las interfaces gráficas.</li>
+                    <li>Permite la incorporación de nuevas tecnologías.</li>
+                    <li>Genera un orden de trabajo.</li>
+                </ul>
+                <h2>Contras</h2>
+                <ul>
+                    <li>Es necesario la calificación del personal destinado a las reparaciones, no todos pueden involucrase.</li>
+                    <li>Las validaciones constantes pueden dar cabida a amenazas para la seguridad, e incluso daños físicos.</li>
+                    <li>Elevados costos en software y hardware.</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Ejemplos</h3>
+                <dl>
+                    <dd>- Los navegadores web, pues funcionan en base a un cliente, y un servicio web que parcha las páginas presentadas a los usuarios.</dd>
+                    <dd>- Protocolo FTP.</dd>
+                    <dd>- SSH.</dd>
+                    <dd>- Juegos online, los jugadores acceden a servidores para la marcha de los mismos.</dd>
+                    <dd>- DNS.</dd>
+                    <dd>- Correos electrónicos.</dd>
+                </dl>
+            </article>
+        </section>
+        <hr>
+        <footer>
+            Derechos reservados 2021-2030.
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+label{
+    font-size: 105%;
+    color: rebeccapurple;
+}
+p{
+    color: sienna;
+    font-family: Verdana;
+}
+h2{
+    background-color: sienna;
+    color: snow;
+    font-family: Verdana;
+    border-left: steelblue 100px;
+}
+.sangría{
+    padding-left: 50px;
+}
+#blanco{
+    color: seagreen;
+    font-weight: bold;
+}
+h1, h2 {
+	border-left: slategray 8px;
+	padding-left: 20px;
+}
